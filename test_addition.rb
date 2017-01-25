@@ -22,5 +22,9 @@ class Test_addition <Minitest::Test
   def test_3_0_plus_6_9_returns_9_9
   	assert_equal(9.9, add(3.0, 6.9))
   end
-   	
+
+  def test_pass_3_numbers_1_plus_2_plus_3_returns_6
+    assert_equal(6, add(1, 2, 3))
+  end  
+  # google ruby splat 	
 end      
