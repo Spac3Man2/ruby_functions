@@ -2,4 +2,4 @@
 require "minitest/autorun"
 require_relative "subtraction.rb"
 
-class Test_addition <Minitest::Test
+class Test_division <Minitest::Test
