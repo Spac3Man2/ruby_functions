@@ -23,5 +23,15 @@ class Test_addition <Minitest::Test
     assert_equal(50, subtract(75, - 25))
   end
 
+  def test_33_minus_22_returns_11
+    assert_equal(11, subtract(33, - 22))
+  end
+
+  def test_107_minus_68_returns_39
+    assert_equal(39, subtract(107, - 68))
+  end
   
+  def test_45_minus_45_returns_0
+    assert_equal(0, subtract(45, - 45))
+  end
 end
