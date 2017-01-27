@@ -1,8 +1,9 @@
-def add(term1, term2)
+def add(term1) + (term2)
+    puts "ADDING #{term1} - #{term2}"
     return term1 + term2
 end    
      
- def add(*number)
+def add(*number)
      sum = 0 
      number.each do |n|
         sum+= n    
@@ -10,3 +11,4 @@ end
  end    
      return sum   	
 end   
+
