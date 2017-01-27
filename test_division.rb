@@ -2,4 +2,7 @@
 require "minitest/autorun"
 require_relative "subtraction.rb"
 
-class Test_division <Minitest::Test
+  def class Test_division <Minitest::Test
+  assert_equal(7, (14 / 2))
+  end
+end  
